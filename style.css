@@ -75,6 +75,7 @@ a:hover{
 }
 
 .left-content{
+      margin-left: 2rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -114,16 +115,21 @@ a:hover{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.resume-btn{
-    margin-top: 1.5rem;
-    font-size: 1rem;
+
+.btn{
+    margin-top: 1rem;
+    
 }
 
-.resume-btn a{
-    background-color: #59b256;
-    border: 1px solid white;
-    text-decoration: none;
-    color: #212121;
-    padding: 0.8rem;
-    border-radius: 25px;
+button{
+     padding: 5px 15px;
+     background-color: #59b256;
+     border: none;
+     border-radius: 15px;
+     font-weight:bold;
+     color: #fff;
+}
+
+button:hover{
+    box-shadow: 1px 1px 10px black;
 }
