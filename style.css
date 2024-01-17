@@ -56,7 +56,7 @@ body{
     font-weight: 600;
 }
 
-a: hover{
+a:hover{
     cursor: pointer;
     color: #f1e1e1;
     border-bottom: 2px solid #f1e1e1;
@@ -126,11 +126,11 @@ button{
      background-color: #59b256;
      border: none;
      border-radius: 15px;
-     font-weight: bold;
+     font-weight:bold;
      color: #fff;
 }
 
-button: hover{
+button:hover{
     cursor: pointer;
     box-shadow: 1px 1px 10px black;
 }
@@ -197,7 +197,7 @@ button: hover{
     transition: transform 1s;
 }
 
-.frontend: hover{
+.frontend:hover{
     transform: scale(1.1);
 }
 .backend{
@@ -214,7 +214,7 @@ button: hover{
     transition: transform 1s;
 }
 
-.backend: hover{
+.backend:hover{
     transform: scale(1.1);
 }
 
@@ -231,7 +231,7 @@ button: hover{
     border-radius: 20px;
     transition: transform 1s;
 }
-.frameworks: hover{
+.frameworks:hover{
     transform: scale(1.1);
 }
 
@@ -249,7 +249,7 @@ button: hover{
     transition: transform 1s;
 } 
 
-.utilities: hover{
+.utilities:hover{
     transform: scale(1.1);
 }
 
