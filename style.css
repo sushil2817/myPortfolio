@@ -112,7 +112,7 @@ a:hover{
 }
 .left-content :nth-child(3){
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -131,5 +131,126 @@ button{
 }
 
 button:hover{
+    cursor: pointer;
     box-shadow: 1px 1px 10px black;
 }
+
+.main-skill{
+    background-color: #faf6f6;
+    padding: 3rem;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.skill{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-decoration: underline; */
+    margin-bottom: 1rem;
+}
+
+.skill-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.first{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+.second{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.frontend{
+    width: 25rem;
+    height: 12rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    /* gap: 1rem; */
+    box-shadow: 1px 1px 8px #212121;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+.frontend:hover{
+    transform: scale(1.1);
+}
+.backend{
+    width: 25rem;
+    height: 12rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    /* gap: 1rem; */
+    box-shadow: 1px 1px 8px #212121;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+.backend:hover{
+    transform: scale(1.1);
+}
+
+.frameworks{
+    width: 25rem;
+    height: 12rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    /* gap: 1rem; */
+    box-shadow: 1px 1px 8px #212121;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+.frameworks:hover{
+    transform: scale(1.1);
+}
+
+.utilities{
+    width: 25rem;
+    height: 12rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    /* gap: 1rem; */
+    box-shadow: 1px 1px 8px #212121;
+    border-radius: 20px;
+    transition: transform 1s;
+} 
+
+.utilities:hover{
+    transform: scale(1.1);
+}
+
+
