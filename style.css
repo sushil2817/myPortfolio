@@ -142,16 +142,17 @@ a:hover{
     
 }
 
-button{
+a{
      padding: 5px 15px;
      background-color: #59b256;
      border: none;
      border-radius: 15px;
      font-weight:bold;
      color: #fff;
+     text-decoration: none;
 }
 
-button:hover{
+a:hover{
     cursor: pointer;
     box-shadow: 1px 1px 10px black;
 }
