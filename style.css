@@ -90,21 +90,22 @@ a:hover{
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .left-content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
     width: 50%;
-      margin-left: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 1rem;
-      animation: slideFromLeft 1s ease forwards;
-      opacity: 0;
+    animation: slideFromLeft 1s ;
 }
+
+
 
 @keyframes slideFromLeft {
     0%{
