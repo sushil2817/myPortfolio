@@ -398,7 +398,7 @@ a:hover{
 }
 
 .project-desc{
-    font-size: 15px;
+    font-size: 20px;
     /* text-wrap:balance ; */
     padding-left: 4rem;
 }
@@ -507,9 +507,9 @@ footer{
     font-size: 30px;
 }
 
-.social_icons{
+.social_icons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
