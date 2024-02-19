@@ -96,6 +96,8 @@ a:hover{
 }
 
 .left-content{
+    width: 640px;
+    margin-left: 5rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -165,12 +167,16 @@ a:hover{
 }
 
 
-@media screen and (max-width:798px) {
-      .main-content{
+@media (max-width:798px) {
+    .main-content{
         display: flex;
-        flex-direction: column-reverse;
-        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 1rem; */
       }
+
+
 }
 
 
@@ -327,6 +333,17 @@ a:hover{
     transform: scale(1.1);
 }
 
+@media (max-width:798px) {
+     .main-container{
+        display: flex;
+        flex-direction: column;
+     }
+     .skill-logo{
+        display: flex;
+        flex-direction: column;
+     }
+}
+
 .allprojects{
     max-width: 1280px;
     margin: 0 auto;
@@ -359,16 +376,17 @@ a:hover{
 
 
 .project-image{
-    
+    position: static;
     height: 200px;
     width: 400px;
     background-color: black;
     border-radius: 15px;
     transition: transform 0.2s;
+    /* overflow: hidden; */
 }
 
 .project-image:hover{
-     transform: scale(1.09);
+     transform: scale(0.9);
 }
 
 
@@ -487,6 +505,19 @@ a:hover{
 .about-me p{
     font-size: 20px;
     text-wrap:wrap;
+}
+
+@media (max-width:798px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
